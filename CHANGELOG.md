@@ -1,8 +1,12 @@
 # Changelog
 
-## [v0.1.1](https://github.com/clszzyh/exnew/tree/v0.1.1) (2020-12-24)
+## [v0.1.2](https://github.com/clszzyh/exnew/tree/v0.1.2) (2020-12-24)
 
-[Full Changelog](https://github.com/clszzyh/exnew/compare/c39941d804e2b31146870f3b9215d3b8f19d640f...v0.1.1)
+[Full Changelog](https://github.com/clszzyh/exnew/compare/c39941d804e2b31146870f3b9215d3b8f19d640f...v0.1.2)
+
+**Closed issues:**
+
+- \[CI FAIL\] main \[Fixed by main\] [\#2](https://github.com/clszzyh/exnew/issues/2)
 
 
 
