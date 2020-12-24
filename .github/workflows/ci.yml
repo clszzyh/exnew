@@ -393,6 +393,10 @@ jobs:
           body: ${{ steps.Changelog.outputs.changelog }}
           draft: false
           prerelease: false
+      - name: Publish on hex.pm
+        run: mix hex.publish --yes
+        env:
+          HEX_API_KEY: ${{ secrets.HEX_API_KEY }}
       - name: Delete old releases
         uses: dev-drprasad/delete-older-releases@v0.2.0
         with:

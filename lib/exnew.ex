@@ -1,18 +1,13 @@
 defmodule Exnew do
-  @moduledoc """
-  Documentation for `Exnew`.
-  """
+  @external_resource readme = Path.join([__DIR__, "../README.md"])
 
-  @doc """
-  Hello world.
+  @moduledoc readme
+             |> File.read!()
+             |> String.split("<!-- MDOC -->")
+             |> Enum.fetch!(2)
 
-  ## Examples
+  # @callback handle_new()
 
-      iex> Exnew.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  defmacro __using__(_) do
   end
 end
